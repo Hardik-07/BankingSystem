@@ -1,0 +1,13 @@
+*{
+    margin: 0px;
+    font-family: sans-serif;
+}
+li{
+    list-style: none;
+}
+.backBtn{
+    height: 35px;
+    width: 35px;
+    color: #7868e6;
+}
+

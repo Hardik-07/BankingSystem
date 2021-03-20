@@ -1,0 +1,166 @@
+#homeComponent{
+    height: 88%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex: 1 1;
+ 
+    
+}
+
+#textData{
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+#heading{
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma;
+    color: #7868e6;
+}
+#textContent{
+    font-size: 25px;
+}
+
+
+#operations{
+    width: 500px;
+    height: 500px;
+    padding: 2%;
+    align-items: center; 
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+}
+#btndiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.btn{
+    background-color:#7868e6;
+    color: white;
+    border: none;
+    width: 260px;
+    box-shadow: 2px 2px 2px;
+    height: 60px;
+    font-size: 25px;
+    border-radius: 30px;
+    margin: 10px 20px;
+    outline: none;
+}
+
+.btn:hover{
+    background-color: transparent;
+    color: #7868e6;
+    border: solid 2px #7868e6;
+}
+
+#illustration{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    flex: 1;
+
+}
+#illustrationImage{
+    height: 450px;
+    width: 450px;
+}
+
+
+@media screen and (max-width: 940px) {
+    #textData{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    #opeartions{
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    #heading{
+        font-size: 40px;
+        font-weight: 500;
+    }
+    #textContent{
+        font-size: 22px;
+    }
+    #operations{
+        height: 370px;
+    }
+}
+@media screen and (max-width: 425px) {
+    
+    #operations{
+        height: 320px;
+    }
+    #illustration{
+        height: 400px;
+        width: 400px;
+    }
+    #illustrationImage{
+        height: 350px;
+        width: 350px;
+    }
+    #heading{
+        font-size: 30px;
+    }
+    #textContent{
+        font-size: 18px;
+    }
+    .btn{
+        height: 40px;
+        font-size: 22px;
+    }
+
+}
+@media screen and (max-width: 360px) {
+    #illustrationImage{
+        height: 320px;
+        width: 320px;
+    }
+    #illustration{
+        height: 380px;
+        width: 380px;
+    }
+    #heading{
+        font-size: 25px;
+    }
+    #textContent{
+        font-size: 16px;
+    }
+    .btn{
+        height: 35px;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 340px) {
+    #illustrationImage{
+        height: 250px;
+        width: 250px;
+    }
+    #illustration{
+        height: 280px;
+        width: 280px;
+    }
+    #heading{
+        font-size: 22px;
+    }
+    #textContent{
+        font-size: 14px;
+    }
+    .btn{
+        height: 32px;
+        font-size: 18px;
+    }
+}

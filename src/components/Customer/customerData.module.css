@@ -1,0 +1,146 @@
+#backBar{
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 5%;
+}
+.barHeading{
+    font-size: 35px;
+    color: #2C3A47;
+}
+
+#userData{
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 5%;
+    font-size: 25px;
+    color: crimson;
+    font-weight: 600;
+    margin:10px 0px;
+}
+span{
+    color: #7868e6;
+    font-size : 40px;
+}
+
+#paydiv{
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: center;
+    align-items: center;
+    margin:0px 20px;
+}
+
+.inputbtn{
+    margin: 10px 10px;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    background-color: #eaeeea;
+    border: none;
+}
+#paybtn{
+    margin-left: 30px;
+    width: 300px;
+    height: 50px;
+    color: whitesmoke;
+    background-color: #7868e6;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    margin: 10px 10px;
+}
+#paybtn:hover{
+    background-color: transparent;
+    color:#7868e6;
+    border: 2px solid #7868e6;
+}
+.heading{
+    margin:10px 30px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.dataTable{
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 24px;
+    width: 80%;
+    margin-bottom: 50px;
+}
+tr{
+    height: 40px;
+}
+th{
+    background-color: #2c2c54;
+    color: white;
+    width: 20%;
+    font-weight: 500;
+}
+tr{
+    color:#2C3A47 ;
+    width: 20%;
+}
+
+@media screen and (max-width:780px){
+    .barHeading{
+        font-size: 30px;
+    }
+    #userData{
+        font-size: 22px;
+    }
+    span{
+        font-size: 30px;
+    }
+    table{
+        font-size: 18px;
+    }
+    
+}
+@media screen and (max-width:420px){
+    .barHeading{
+        font-size: 30px;
+    }
+    #userData{
+        font-size: 16px;
+    }
+    span{
+        font-size: 24px;
+    }
+    table{
+        font-size: 16px;
+    }
+    th{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:370px){
+    .barHeading{
+        font-size: 26px;
+    }
+    #userData{
+        font-size: 14px;
+    }
+    span{
+        font-size: 20px;
+    }
+    table{
+        font-size: 12px;
+    }
+    th{
+        font-size: 14px;
+    }
+    .inputbtn{
+        width: 270px;
+        height: 35px;
+    }
+}

@@ -1,0 +1,11 @@
+/* #bandkingApp{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+}
+#body{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr auto;
+} */

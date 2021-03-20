@@ -1,0 +1,89 @@
+#userListComponent{
+    margin: 20px 0px;
+}
+
+#backBar{
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 5%;
+}
+
+#barHeading{
+    font-size: 35px;
+    color: #2C3A47;
+}
+
+
+#usersList{
+    margin: 0px;
+    padding: 20px 40px;
+    margin-bottom: 50px;
+}
+.usersDatabtn{
+    margin: 5px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 60px;
+    padding: 0px 60px;
+    font-size: 26px;
+    background-color: whitesmoke;
+    color: #2c2c54;
+    font-weight: 500;
+    border: none;
+}
+
+.usersDatabtn:hover{
+    background-color: #7868e6;
+    color: white;
+}
+
+hr{
+    margin: 5px 30px;
+    border: 1.2px solid #4b6584;
+}
+
+@media screen and (max-width: 768px){
+    .usersDatabtn{
+        font-size: 22px;
+    }   
+}
+@media screen and (max-width: 580px){
+    .usersDatabtn{
+        font-size: 20px;
+        justify-content:space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }   
+}
+@media screen and (max-width: 460px){
+    .usersDatabtn{
+        font-size: 18px;
+    }
+    #barHeading{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 411px){
+    .usersDatabtn{
+        font-size: 16.5px;
+        font-weight: 500;
+    }
+    #barHeading{
+        font-size: 26px;
+    }
+}
+@media screen and (max-width: 360px){
+    .usersDatabtn{
+        font-size: 15.4px;
+        font-weight: 500;
+        text-align: left;
+    }
+    #barHeading{
+        font-size: 24px;
+    }
+}

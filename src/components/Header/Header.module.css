@@ -1,0 +1,33 @@
+#headerComponent{
+    padding: 1.2% 5%;
+    background-color:#7868e6;
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+#bankName{
+ display: flex;
+ align-items: center;
+}
+#name{
+    font-size: 24px;
+    color: white;
+    margin: 0px 10px;
+}
+#logo{
+    height: 30px;
+    width: 30px;
+    color: white;
+}
+
+#links{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: 400px;
+    cursor: pointer;
+}

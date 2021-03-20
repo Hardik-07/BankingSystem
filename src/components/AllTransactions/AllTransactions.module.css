@@ -1,0 +1,34 @@
+#backBar{
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 5%;
+    margin-bottom: 20px;
+}
+
+#dataTable{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+#barHeading{
+    font-size: 35px;
+    color: #2C3A47;
+}
+@media screen and (max-width:780px){
+    #barHeading{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:420px){
+    #barHeading{
+        font-size: 26px;
+    }
+}
+@media screen and (max-width:370px){
+    #barHeading{
+        font-size: 20px;
+    }
+}
