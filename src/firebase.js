@@ -10,14 +10,6 @@ const config = {
      appId: process.env.REACT_APP_APP_ID,
      measurementId: process.env.REACT_APP_MEASURMENT_ID
 
-
-    // apiKey: "AIzaSyADNMSnS8ozrZLHgPo19TsttsO9BBoa4ao",
-    // authDomain: "basicbanking-1.firebaseapp.com",
-    // projectId: "basicbanking-1",
-    // storageBucket: "basicbanking-1.appspot.com",
-    // messagingSenderId: "646333770215",
-    // appId: "1:646333770215:web:7a39bcc4b66ce12bd8f542",
-    // measurementId: "G-7Q1XKWTX54"
  }
  console.log(process.env.REACT_FIREBASE_APP_ID)
 if (!firebase.apps.length) {
